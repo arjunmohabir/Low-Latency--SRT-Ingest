@@ -1,0 +1,8 @@
+# Router Port Forwarding Rule
+
+External Port: 9000
+Internal IP: 192.168.1.192
+Internal Port: 9000
+Protocol: UDP
+
+Description: Forward SRT traffic from public interface to OBS host
