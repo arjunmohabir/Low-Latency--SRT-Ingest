@@ -1,0 +1,10 @@
+# OBS SRT Listener Configuration. Add as Media File, Uncheck Local File. 
+srt://0.0.0.0:9000?mode=listener&latency=120
+
+# Mobile Encoder Output (Larix Broadcaster, IRL Pro) 
+srt://PUBLIC_IP:9000
+
+Protocol: UDP (SRT)
+Latency: 120ms
+
+Description: OBS configured as SRT ingest server receiving remote stream
