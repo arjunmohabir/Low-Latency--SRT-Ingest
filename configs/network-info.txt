@@ -1,0 +1,13 @@
+# Network Context
+
+Client Network: Mobile Data (Cellular ATT VERIZON TMOBILE) - Can be bonded over multiple connections using IRL Pro
+Server Network: Home LAN (Verizon FiOS)
+
+Challenges:
+- Variable bandwidth
+- Packet loss
+- Latency fluctuations
+- Loss of Cellular Connection
+
+Solution:
+Used SRT for reliable transport with packet recovery and adaptive buffering for unpredictable connections. 
