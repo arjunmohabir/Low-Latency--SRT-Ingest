@@ -1,0 +1,15 @@
+# Mobile Encoder (Larix / IRL Pro)
+
+Output URL:
+srt://PUBLIC_IP:9000
+
+Protocol: SRT
+Connection Mode: Caller
+
+Video:
+- Resolution: 720p@60fps
+- Bitrate: ~2500 kbps (variable with SRT)
+
+Audio:
+- AAC
+- 128 kbps
