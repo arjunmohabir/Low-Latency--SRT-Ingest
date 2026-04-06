@@ -1,5 +1,7 @@
 # Low Latency Streaming Over SRT (Ingest Server)
 
+<img src="images/obs-srt-settings.png" width="500">
+
 ## Overview
 This project demonstrates how to stream live video from a mobile device to a home PC using the SRT (Secure Reliable Transport) protocol. The setup enables stable, low-latency streaming over mobile data by forwarding a port and configuring OBS (Open Broadcasting Software) as an ingest receiver.
 
