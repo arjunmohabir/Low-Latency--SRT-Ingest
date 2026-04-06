@@ -1,7 +1,5 @@
 # Low Latency Streaming Over SRT (Ingest Server)
 
-<img src="obs-srt.PNG" width="500">
-
 ## Overview
 This project demonstrates how to stream live video from a mobile device to a home PC using the SRT (Secure Reliable Transport) protocol. The setup enables stable, low-latency streaming over mobile data by forwarding a port and configuring OBS (Open Broadcasting Software) as an ingest receiver.
 
@@ -24,23 +22,27 @@ Mobile Device (Encoder) → Public IP → Router (Port Forwarding) → OBS (SRT 
 ### 1. Mobile Encoder
 - Used a mobile streaming app (e.g., Larix Broadcaster / IRL Pro)
 - Configured SRT output with target IP and port
-![Encoder Config](encoder-config.png)
+
+<img src="encoder-config.png" width="500">
 
 ### 2. Router Configuration
 - Forwarded a specific port from the public interface to the internal PC
 - Ensured correct protocol and port mapping
-![Router Config](port-fowarding.PNG)
+
+<img src="port-fowarding.PNG" width="500">
 
 ### 3. OBS Configuration
 - Set OBS to listen for incoming SRT stream
 - Configured media source with SRT listener mode
-![OBS SRT Settings](obs-srt.PNG)  
+
+<img src="obs-srt.PNG" width="500">
 
 ## Testing & Results
 - Successfully streamed video from a mobile device over cellular data
 - Maintained stable connection under varying network conditions
 - Observed improved reliability compared to RTSP-based streaming
-![Encoder Preview](encoder-preview-cellular.PNG)
+
+<img src="encoder-preview-cellular.PNG" width="500">
 
 ## Why SRT?
 SRT provides:
