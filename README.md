@@ -22,19 +22,23 @@ Mobile Device (Encoder) → Public IP → Router (Port Forwarding) → OBS (SRT 
 ### 1. Mobile Encoder
 - Used a mobile streaming app (e.g., Larix Broadcaster / IRL Pro)
 - Configured SRT output with target IP and port
+![Encoder Config](encoder-config.png)
 
 ### 2. Router Configuration
 - Forwarded a specific port from the public interface to the internal PC
 - Ensured correct protocol and port mapping
+![Router Config](port-fowarding.PNG)
 
 ### 3. OBS Configuration
 - Set OBS to listen for incoming SRT stream
 - Configured media source with SRT listener mode
+![OBS SRT Settings](obs-srt.PNG)  
 
 ## Testing & Results
 - Successfully streamed video from a mobile device over cellular data
 - Maintained stable connection under varying network conditions
 - Observed improved reliability compared to RTSP-based streaming
+![Encoder Preview](encoder-preview-cellular.PNG)
 
 ## Why SRT?
 SRT provides:
